@@ -7,6 +7,13 @@ It offers a (live) streaming API to collect a lot of interesting information. E.
 
 || [Website](https://www.planetside2.com/home) || [API](http://census.daybreakgames.com/#what-is-websocket) || [Ingame Youtube video](https://www.youtube.com/watch?v=YfkK51dYUbI&) ||
 
+# Tasks
+1 - collect data. Use a websocket as interface <br />
+2 - setup stream and batch processing <br />
+3 - compare stream with batch results <br />
+4 - build prediction models for some data <br />
+5 - output to ElasticSearch and visualisation with Kibana<br />
+
 # Metrics
 1 - Compute the number of logins/logouts for each game server <br />
 2 - Compute headshots/deaths ratio over all game servers <br />
